@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Bungee&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+
+
+/* HEADER */
+.section2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.txt-btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.textbox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #00449c;
+  width: 1138px;
+  padding: 30px;
+}
+
+.h1-textbox {
+  font-family: "Bungee", sans-serif;
+  font-size: 6.25rem;
+  color: #9edffe;
+  margin: 0;
+}
+
+.p-textbox {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 2.188rem;
+  color: #fff;
+  width: 1040px;
+  text-align: center;
+  margin: 0;
+}
+
+.btn-explore {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+
+.explore {
+  background-color: #00449c;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  color: #fff;
+  padding: 5px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 3.125rem;
+  width: 294px;
+  cursor: pointer;
+}
+
+/*MAIN*/
+main {
+    background-image: url(./assets/indexbackground.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    width: 100%;
+}
