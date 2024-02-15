@@ -3,7 +3,7 @@
 
 
 /* HEADER */
-.section2 {
+.section2-header {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -70,7 +70,119 @@ main {
     background-image: url(./assets/indexbackground.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed;
     background-position: center;
     width: 100%;
+    height: 4119px;
 }
+
+.section-index {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 35px;
+}
+
+.section-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.h1-index1 {
+    width: 561px;
+    text-align: center;
+    margin: 0;
+    padding: 5px;
+}
+
+.p-index1{
+    text-align: right;
+    width: 580px;
+    margin: 0;
+    font-size: 1.563rem;
+}
+
+.arrow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.p-index2{
+    text-align: left;
+    width: 580px;
+    margin: 0;
+    padding-bottom: 15px;
+    font-size: 1.563rem;
+}
+
+.h1-cards-headline {
+    text-align: center;
+    padding: 25px;
+}
+
+.cards-wrapper {
+ display: flex;
+ flex-direction: row;
+ justify-content: space-evenly;
+ align-items: center;
+}
+
+.card1-wrapper, .card2-wrapper, .card3-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.img-cards {
+    border-radius: 25px;
+}
+
+.card1-btn {
+    width: 445px;
+    background-color: #00449c;
+    border-radius: 0 0 25px 25px;
+    position: absolute;
+    bottom: 0%;
+}
+
+.h1-pink-card {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+#check {
+    display: none;
+}
+
+#check:checked ~ .content {
+    display: block;
+}
+
+.content {
+    display: none;
+}
+
+label {
+    cursor: pointer; 
+}
+
+.p-cards {
+    color: #fff;
+    font-size: 1.125rem;
+    padding: 18px;
+   
+}
+
+.x {
+  display: flex;  
+  justify-content: center;
+  padding-bottom: 10px;
+}
+
+
