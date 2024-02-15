@@ -118,6 +118,8 @@ main {
     font-size: 1.563rem;
 }
 
+
+/* H1 CARDS */
 .h1-cards-headline {
     text-align: center;
     padding: 25px;
@@ -128,47 +130,57 @@ main {
  flex-direction: row;
  justify-content: space-evenly;
  align-items: center;
+ 
 }
 
 .card1-wrapper, .card2-wrapper, .card3-wrapper {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
-    position: relative;
+    padding-bottom: 20px;
+    
 }
 
 .img-cards {
     border-radius: 25px;
 }
 
-.card1-btn {
+.card1-btn, .card2-btn, .card3-btn {
     width: 445px;
     background-color: #00449c;
     border-radius: 0 0 25px 25px;
-    position: absolute;
-    bottom: 0%;
+   margin-top: -67px;
+   
 }
 
-.h1-pink-card {
+.h1-card {
     display: flex;
     justify-content: center;
     padding: 10px;
 }
 
-#check {
+#check, #check2, #check3 {
     display: none;
 }
 
-#check:checked ~ .content {
+#check:checked ~ .content1 {
     display: block;
 }
 
-.content {
+#check2:checked ~ .content2 {
+    display: block;
+}
+
+#check3:checked ~ .content3 {
+    display: block;
+}
+
+.content1, .content2, .content3 {
     display: none;
 }
 
-label {
+.label1, .label2, .label3 {
     cursor: pointer; 
 }
 
@@ -176,7 +188,11 @@ label {
     color: #fff;
     font-size: 1.125rem;
     padding: 18px;
-   
+}
+
+.p-link {
+    color: #fff;
+    font-size: 1.125rem;
 }
 
 .x {
