@@ -34,7 +34,7 @@ video {
   height: 4.063rem;
   display: flex;
   align-items: center;
-  padding: 25px;
+  margin: 25px;
 }
 
 .navigation {
@@ -87,5 +87,4 @@ p {
   color: #000;
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
-  
 }
