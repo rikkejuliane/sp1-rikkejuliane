@@ -71,11 +71,12 @@ li {
 }
 
 .hidden {
-    display: ;
+    display: none;
     position: absolute;
-    top: 15%;
-    left: 0;
+    right: 0;
+    top: 100%;
     width: 100%;
+    z-index: 1;
 }
 .text-box {
     display: flex;
@@ -95,7 +96,7 @@ li {
     padding: 4px;
 }
 
-.textbox-hover:hover, .hidden {
+.textbox-hover:hover + .hidden {
    display: block;
 }
 
