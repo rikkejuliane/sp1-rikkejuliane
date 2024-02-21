@@ -1,0 +1,62 @@
+main {
+    background-image: url(./assets/backgroundcontribution.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: auto;
+  }
+
+
+  .section-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 120px;
+    padding: 60px;
+  }
+
+  .contribution-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .h1-contribution {
+    width: 561px;
+    text-align: center;
+    margin: 0;
+    
+  }
+
+  .p-contribution {
+    text-align: left;
+    width: 580px;
+    margin: 0;
+    font-size: 1.563rem;
+    padding-bottom: 15px;
+  }
+
+
+  .contact-btn-wrapper{
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+  }
+
+  .contact-btn{
+    background-color: #00449c;
+    border: 1px solid #9edffe;
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    border-radius: 50px;
+    color: #9edffe;
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 2.5rem;
+    width: 364px;
+    cursor: pointer;
+    
+  }

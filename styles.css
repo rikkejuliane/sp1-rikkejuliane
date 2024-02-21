@@ -119,11 +119,28 @@ li {
     font-size: 2.5rem;
   }
 
+  .h1-headline {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+  }
+
 p {
   color: #000;
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
 }
+
+.h2-lightblue {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 1.875rem;
+    color: #9edffe; 
+}
+
+.img-radius {
+    border-radius: 25px;
+  }
 
 /* FOOTER */
 
@@ -133,13 +150,6 @@ p {
     justify-content: space-between;
     background-color: #00449c;
     padding: 25px;
-}
-
-.h3 {
-    font-family: "Poppins", sans-serif;
-    font-weight: 700;
-    font-size: 1.875rem;
-    color: #9edffe; 
 }
 
 .footer-links a {
