@@ -17,3 +17,18 @@ main {
     display: flex;
     flex-direction: column;
   }
+
+  .ex-card {
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+  }
+
+  .p-small-ex {
+    width: 566px;
+    font-size: 1.25rem;
+    padding: 15px 0;
+  }
+
+  
+  

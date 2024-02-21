@@ -219,7 +219,7 @@ main {
 .p-small {
   text-align: center;
   width: 448px;
-  font-size: 1.313rem;
+  font-size: 1.25rem;
 }
 
 .exhibition-wrapper {
@@ -256,8 +256,13 @@ main {
 
 
 
-
 /* MEDIA QUERIES */
+@media (prefers-reduced-motion: no-preference) {
+    :has(:target) {
+        scroll-behavior: smooth;
+    }
+}
+
 /* mobile to small tablet */
 @media screen and (min-width: 300px) and (max-width: 600px) {
 }
