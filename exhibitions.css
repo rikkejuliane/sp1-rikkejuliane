@@ -3,32 +3,41 @@ main {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    width: 100%;
+    max-width: 100%;
     height: auto;
+    padding-bottom: 100px;
   }
 
   .exhibition-wrapper{
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     justify-content: center;
   }
 
-  .exhibition-column1 {
-    display: flex;
-    flex-direction: column;
-  }
 
   .ex-card {
     display: flex;
     flex-direction: column;
-    padding: 100px;
+    padding-bottom: 20px;
+    align-items: center;
+    box-sizing: border-box;
+    
+  }
+
+  .ex-card img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
   }
 
   .p-small-ex {
-    width: 566px;
+    max-width: 560px;
     font-size: 1.25rem;
     padding: 15px 0;
   }
+
+  
 
   
   

@@ -45,11 +45,11 @@ video {
   padding-right: 25px;
 }
 
-ul {
+header ul, footer ul {
   list-style-type: none;
 }
 
-li {
+header li, footer li {
   display: inline;
   padding-left: 20px;
 }
@@ -139,6 +139,23 @@ p {
     color: #9edffe; 
 }
 
+.h2-blue1{
+  font-family: "Bungee", sans-serif;
+  color:#00449c;
+  font-size: 1.875rem;
+}
+
+.h2-pink1{
+  font-family: "Bungee", sans-serif;
+  color: #FF42D5;
+  font-size: 1.875rem;
+}
+
+.h2-center {
+  display: flex;
+  justify-content: center;
+}
+
 .img-radius {
     border-radius: 25px;
   }
@@ -149,8 +166,14 @@ p {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
     background-color: #00449c;
     padding: 25px;
+}
+
+.img-footer {
+  display: flex;
+  justify-content: center;
 }
 
 .footer-links a {
