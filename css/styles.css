@@ -21,6 +21,7 @@ video {
   height: auto;
 }
 
+
 /* header banner*/
 .banner-wrapper {
   display: flex;
@@ -242,3 +243,95 @@ p {
     margin-left: -153px;
   }
 
+/* MEDIA QUERIES */
+/* mobile to small tablet */
+@media screen and (min-width: 300px) and (max-width: 600px) {
+  .navigation, #menu-check {
+    display: none;
+  }
+
+  #menu-check:checked ~ .navigation{
+    display: block;
+  }
+
+header {
+    position: relative;
+}
+
+label i {
+    position: absolute;
+    top: 60px;
+    right: 15px;
+}
+
+.navigation{
+    position: absolute;
+    background-color: #00449C;
+    right: 0;
+    top: 119px;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+  .navigation a {
+    display: block;
+  }
+
+  .textbox-hover:hover + .hidden {
+    display: none;
+ }
+}
+
+/* tablet and small laptops */
+@media screen and (min-width: 601px) and (max-width: 955px) {
+    .navigation, #menu-check {
+        display: none;
+      }
+    
+      #menu-check:checked ~ .navigation{
+        display: block;
+      }
+    
+    header {
+        position: relative;
+    }
+    
+    label i {
+        position: absolute;
+        top: 60px;
+        right: 15px;
+    }
+    
+    .navigation{
+        position: absolute;
+        background-color: #00449C;
+        right: 0;
+        top: 119px;
+        width: 100%;
+        text-align: center;
+        padding-bottom: 15px;
+    }
+    
+      .navigation a {
+        display: block;
+      }
+    
+      .textbox-hover:hover + .hidden {
+        display: none;
+     }
+}
+
+/* laptop to larger desktops */
+@media screen and (min-width: 956px) and (max-width: 1300px) {
+    #menu-check, .hidden-check{
+        display: none;
+    }
+}
+
+/* larger monitors */
+@media screen and (min-width: 1301px) {
+    #menu-check, .hidden-check{
+        display: none;
+    }
+}

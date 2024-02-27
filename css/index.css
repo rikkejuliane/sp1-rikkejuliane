@@ -65,7 +65,7 @@
 
 /*MAIN*/
 main {
-  background-image: url("../assets/indexbackground.jpg");
+  background-image: url('../assets/indexbackground.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
