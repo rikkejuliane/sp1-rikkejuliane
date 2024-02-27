@@ -15,6 +15,7 @@ main {
     gap: 120px;
     padding: 60px;
     flex-wrap: wrap;
+    
   }
 
   .contribution-text {
