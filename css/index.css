@@ -1,5 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Bungee&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
+video {
+  width: 100%;
+  height: auto;
+}
+
+
 /* HEADER */
 .section2-header {
   display: flex;
@@ -73,7 +79,7 @@ main {
   height: auto;
 }
 
-.section-index {
+.section-index1, .section-index2, .section-index3 {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -91,7 +97,6 @@ main {
   width: 561px;
   text-align: center;
   margin: 0;
-  
 }
 
 .p-index1 {
@@ -223,15 +228,18 @@ main {
 }
 
 .exhibition-wrapper {
-  display: flex;
-  justify-content: center;
-  border-radius: 25px;
   position: relative;
   padding: 0 25px 100px;
+  overflow: hidden;
 }
 
-.img-space {
+.img-space1 {
   border-radius: 25px;
+  display: block;
+}
+
+.img-space2 {
+  display: none;
 }
 
 .exhibition-btn {
@@ -265,6 +273,112 @@ main {
 
 /* mobile to small tablet */
 @media screen and (min-width: 300px) and (max-width: 600px) {
+  video {
+    width: auto;
+    height: 780px;
+  }
+
+  .section2-header {
+    max-width: 100%;
+    overflow: hidden;
+    }
+  
+  .h1-textbox {
+    font-size: 1.88rem;
+  }
+
+
+
+  .p-textbox {
+    font-size: 0.875rem;
+    width: 300px; 
+  }
+
+  .textbox {
+    width: 100%;
+    
+  }
+
+  .explore {
+    font-size: 1.438rem;
+    width: 133px;
+  }
+
+  .section-index1, .section-index3 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .section-index2 {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .p-index1 {
+    text-align: center;
+    width: 300px;
+    font-size: 0.938rem;
+  }
+  
+  
+  .p-index2 {
+    text-align: center;
+    width: 300px;
+    font-size: 0.938rem;
+  }
+
+  .h1-index1 {
+    width: 300px;
+    
+  }
+
+  .p-small {
+    width: 300px;
+    font-size: 0.938rem;
+  }
+
+  .h2-index {
+    font-size: 1.25rem;
+    width: 300px;
+  }
+
+  .cards-wrapper {
+    display: flex;
+  flex-direction: column;
+}
+
+.card1-btn,
+.card2-btn,
+.card3-btn {
+  width: 300px;
+  background-color: #00449c;
+  margin-top: -67px;
+}
+
+.exhibition-btn {
+  padding: 5px 15px;
+  font-size: 2.063rem;
+  width: 300px;
+}
+
+.img-space1{
+  display: none;
+}
+
+
+.exhibition-wrapper{
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+.img-space2{
+  display: block;
+  object-fit: cover;
+  width: 100%;
+  height: auto;
+  
+}
 }
 
 /* tablet and small laptops */
