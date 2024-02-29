@@ -121,11 +121,6 @@ main {
   font-size: 1.563rem;
 }
 
-.h1-headline {
-  text-align: center;
-  padding: 10px;
-}
-
 
 /* H1 CARDS */
 
@@ -284,10 +279,10 @@ main {
     }
   
   .h1-textbox {
-    font-size: 1.88rem;
+    font-size: 1.70rem;
+    width: 320px;
+    text-align: center;
   }
-
-
 
   .p-textbox {
     font-size: 0.875rem;
@@ -308,6 +303,7 @@ main {
     display: flex;
     flex-direction: column;
     gap: 20px;
+    padding: 0;
   }
 
   .section-index2 {
@@ -330,6 +326,7 @@ main {
 
   .h1-index1 {
     width: 300px;
+    padding: 10px;
     
   }
 
@@ -337,6 +334,8 @@ main {
     width: 300px;
     font-size: 0.938rem;
   }
+
+
 
   .h2-index {
     font-size: 1.25rem;
@@ -348,12 +347,16 @@ main {
   flex-direction: column;
 }
 
+.p-cards {
+  font-size: 1rem;
+}
+
 .card1-btn,
 .card2-btn,
 .card3-btn {
-  width: 300px;
+  width: 100%;
   background-color: #00449c;
-  margin-top: -67px;
+  margin-top: -49px;
 }
 
 .exhibition-btn {
@@ -377,7 +380,7 @@ main {
   object-fit: cover;
   width: 100%;
   height: auto;
-  
+  padding-bottom: 40px;
 }
 }
 

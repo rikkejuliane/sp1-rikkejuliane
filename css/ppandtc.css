@@ -1,19 +1,21 @@
 main {
-    background-image: url(./assets/background-pptc.jpg);
+    background-image: url(/assets/background-pptc.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     max-width: 100%;
     height: auto;
     padding-bottom: 120px;
+    padding-top: 50px;
   }
 
 .pptc-wrapper {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 1156px;
+    width: 65%;
     margin: 0 auto;
+    padding-top: 20px;
 }
 
 .h2-pptc{
@@ -35,4 +37,19 @@ main {
     text-decoration: none;
     font-weight: 700;
     color: #000;
+}
+
+
+/* MEDIA QUERIES */
+/* mobile to small tablet */
+@media screen and (min-width: 300px) and (max-width: 600px) {
+    .h2-pptc{
+        font-size: 1.1rem;
+       
+    }
+    
+    .p-pptc, .p-pptc li {
+        font-size: 1rem;
+       
+    }
 }

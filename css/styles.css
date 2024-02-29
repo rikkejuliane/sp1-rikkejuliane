@@ -99,6 +99,11 @@ footer li {
 }
 
 /* MAIN */
+main {
+  padding-bottom: 100px;
+    padding-top: 30px;
+}
+
 .h1-blue {
   color: #00449c;
   font-family: "Bungee", sans-serif;
@@ -109,18 +114,23 @@ footer li {
   color: #ff42d5;
   font-family: "Bungee", sans-serif;
   font-size: 2.5rem;
+  margin: 0 auto;
 }
 
 .h1-lightblue {
   color: #9edffe;
   font-family: "Bungee", sans-serif;
   font-size: 2.5rem;
+  margin: 0 auto;
 }
 
 .h1-headline {
   display: flex;
   justify-content: center;
-  padding: 50px;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  margin: 0 auto;
 }
 
 p {
@@ -151,6 +161,7 @@ p {
 .h2-center {
   display: flex;
   justify-content: center;
+  text-align: center;
 }
 
 .img-radius {
@@ -272,6 +283,7 @@ p {
     width: 100%;
     text-align: center;
     padding-bottom: 15px;
+    z-index: 1;
   }
 
   .navigation a {
@@ -282,12 +294,11 @@ p {
     display: none;
   }
   /* ----- */
-
+ main {
+  padding-top: 0px;
+ }
   .logo-big {
     width: 70%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
   }
 
   .h1-blue,
@@ -295,7 +306,19 @@ p {
   .h1-lightblue {
     font-size: 1.563rem;
     width: 300px;
+    text-align: center;
   }
+
+  .h1-headline {
+    padding-bottom: 10px;
+  }
+
+  .h2-blue1, .h2-pink {
+  
+    font-size: 1.4rem;
+  }
+  
+ 
 
 
   /* FOOTER */
@@ -376,6 +399,7 @@ p {
     width: 100%;
     text-align: center;
     padding-bottom: 15px;
+    z-index: 1;
   }
 
   .navigation a {
