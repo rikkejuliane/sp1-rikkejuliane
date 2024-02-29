@@ -1,5 +1,5 @@
 main {
-    background-image: url(./assets/background-visitus.jpg);
+    background-image: url(/assets/background-visitus.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -103,6 +103,7 @@ main {
   }
 /* -------*/
 
+
 .text-wrapper {
     display: flex;
     flex-direction: row;
@@ -134,4 +135,37 @@ main {
 
 .textbox-visitus.icons-visitus ul li img {
     margin-right: 8px;
+}
+
+
+/* MEDIA QUERIES */
+/* mobile to small tablet */
+@media screen and (min-width: 300px) and (max-width: 600px) {
+  .form-contact {
+    width: 100%;
+    height: auto;
+    padding: 40px;
+  }
+
+  .names {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+  }
+
+  .form-map {
+    gap: 0px;
+    width: 100%;
+    height: auto;
+    padding-top: 10px;
+}
+
+.p-visitus, .textbox-visitus li {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.163rem;
+  padding-bottom: 15px;
+  list-style: none;
+}
+
+
 }

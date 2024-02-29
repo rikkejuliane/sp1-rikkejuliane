@@ -294,9 +294,7 @@ p {
     display: none;
   }
   /* ----- */
- main {
-  padding-top: 0px;
- }
+
   .logo-big {
     width: 70%;
   }
@@ -313,7 +311,7 @@ p {
     padding-bottom: 10px;
   }
 
-  .h2-blue1, .h2-pink {
+  .h2-blue1, .h2-pink1 {
   
     font-size: 1.4rem;
   }
