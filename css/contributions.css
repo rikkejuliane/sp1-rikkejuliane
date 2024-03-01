@@ -1,5 +1,5 @@
 main {
-    background-image: url(/assets/backgroundcontribution.jpg);
+    background-image: url("../assets/backgroundcontribution.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
