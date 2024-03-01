@@ -75,7 +75,7 @@ footer li {
   z-index: 2;
 }
 
-.text-box {
+.text-box-info {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
