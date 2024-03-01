@@ -100,3 +100,10 @@ main {
     width: 300px;
   }
 }
+
+@media screen and (max-width: 1394px) {
+  .section-wrapper {
+    padding: 50px;
+    gap: 20px;
+  }
+}

@@ -8,6 +8,7 @@
     <link rel="icon" type="image/x-icon" href="./assets/favicon.ico">
     <link rel="stylesheet" href="./css/styles.css">
     <link rel="stylesheet" href="./css/exhibitions.css">
+    <script src="https://kit.fontawesome.com/5d9728489f.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
@@ -15,9 +16,11 @@
             <a href="./index.html">
                 <img class="logo-big" src="./assets/csmlogobig.png" alt="Community science logo in a bright pink">
             </a>
+            <input type="checkbox" id="menu-check">
+        <label for="menu-check" class="hidden-check"><i class="fa-solid fa-bars fa-2xl" style="color: #ffffff;"></i></i></label>
             <nav class="navigation">
                 <ul>
-                    <li>
+                    <li class="active">
                         <a class="nav-li" href="./index.html">HOME</a>
                     </li>
                     <li>
@@ -86,7 +89,7 @@
                             </div>
                         </div>
                     </li>
-                    <li class="active">
+                    <li>
                         <a class="nav-li" href="./exhibitions.html">EXHIBITIONS</a>
                     </li>
                     <li>
@@ -148,9 +151,12 @@
     </main>
     <footer>
         <div class="footer-wrapper">
-            <a href="./index.html"><img src="./assets/smalllogo.png" alt="Small version of the CSM logo"></a>
-            <section>
-                <h2 class="h2-lightblue">EXPLORE</h2>
+            <a href="./index.html"><img class="img-footer" src="./assets/smalllogo.png" alt="Small version of the CSM logo"></a>
+            <a href="./index.html">
+                <img class="logo-big-footer" src="./assets/csmlogobig.png" alt="Community science logo in a bright pink">
+            </a>
+            <section class="media-center">
+                <h3 class="h2-lightblue">EXPLORE</h3>
                 <nav>
                     <ul>
                         <li class="footer-links">
@@ -165,8 +171,8 @@
                     </ul>
                 </nav>
             </section>
-            <section>
-                <h2 class="h2-lightblue">INFO AND HELP</h2>
+            <section class="media-center">
+                <h3 class="h2-lightblue">INFO AND HELP</h3>
                 <nav>
                     <ul>
                         <li class="footer-links">

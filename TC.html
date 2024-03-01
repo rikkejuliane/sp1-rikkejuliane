@@ -8,6 +8,7 @@
     <link rel="icon" type="image/x-icon" href="./assets/favicon.ico">
     <link rel="stylesheet" href="./css/styles.css">
     <link rel="stylesheet" href="./css/ppandtc.css">
+    <script src="https://kit.fontawesome.com/5d9728489f.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
@@ -15,6 +16,8 @@
             <a href="./index.html">
                 <img class="logo-big" src="./assets/csmlogobig.png" alt="Community science logo in a bright pink">
             </a>
+            <input type="checkbox" id="menu-check">
+        <label for="menu-check" class="hidden-check"><i class="fa-solid fa-bars fa-2xl" style="color: #ffffff;"></i></i></label>
             <nav class="navigation">
                 <ul>
                     <li class="active">
@@ -144,8 +147,11 @@
     </main>
     <footer>
         <div class="footer-wrapper">
-            <a href="./index.html"><img src="./assets/smalllogo.png" alt="Small version of the CSM logo"></a>
-            <section>
+            <a href="./index.html"><img class="img-footer" src="./assets/smalllogo.png" alt="Small version of the CSM logo"></a>
+            <a href="./index.html">
+                <img class="logo-big-footer" src="./assets/csmlogobig.png" alt="Community science logo in a bright pink">
+            </a>
+            <section class="media-center">
                 <h3 class="h2-lightblue">EXPLORE</h3>
                 <nav>
                     <ul>
@@ -161,7 +167,7 @@
                     </ul>
                 </nav>
             </section>
-            <section>
+            <section class="media-center">
                 <h3 class="h2-lightblue">INFO AND HELP</h3>
                 <nav>
                     <ul>

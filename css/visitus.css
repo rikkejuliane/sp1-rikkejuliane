@@ -98,8 +98,8 @@ main {
     color:#00449C;
   }
 
-  .hidden{
-    display: none;
+  .opacity{
+    opacity: 0;
   }
 /* -------*/
 
@@ -163,5 +163,11 @@ main {
 .p-visitus, .textbox-visitus li {
   font-size: 1.111rem;
 }
+}
 
+/* everything above mobile */
+@media screen and (min-width: 601px) {
+  .form-map {
+    gap: 0px;
+  }
 }

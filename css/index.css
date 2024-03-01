@@ -491,8 +491,103 @@ main {
 
 /* laptop to larger desktops */
 @media screen and (min-width: 901px) and (max-width: 1300px) {
+  video {
+    width: auto;
+    height: 780px;
+  }
+
+  .section2-header {
+    max-width: 100%;
+    overflow: hidden;
+  }
+
+  .h1-textbox {
+    font-size: 4rem;
+    width: 700px;
+    text-align: center;
+  }
+
+  .p-textbox {
+    font-size: 1.7rem;
+    width: 700px;
+  }
+
+  .textbox {
+    width: 100%;
+  }
+
+  .explore {
+    font-size: 2.4rem;
+    width: 260px;
+  }
+
+  .section-index1,
+  .section-index3 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 0;
+  }
+
+  .section-index2 {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .p-index1, .p-index2  {
+    text-align: center;
+    width: 600px;
+    font-size: 1.6rem;
+  }
+
+
+  .h1-index1 {
+    width: 700px;
+    padding: 10px;
+  }
+
+  .p-small {
+    width: 460px;
+    font-size: 1.5rem;
+  }
+
+  .h2-index {
+    font-size: 1.6rem;
+    width: 600px;
+  }
+
+  .cards-wrapper {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+
+  .p-cards {
+    font-size: 1.3rem;
+  }
+
+  .exhibition-btn {
+    padding: 5px 15px;
+    font-size: 3.063rem;
+    width: 500px;
+  }
+
+  .img-space1 {
+    display: block;
+  }
+
+  .exhibition-wrapper {
+    position: relative;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .img-space2 {
+    display: none;
+  }
+  
 }
 
 /* larger monitors */
-@media screen and (min-width: 1301px) {
+@media screen and (min-width: 1000px) {
 }

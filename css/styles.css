@@ -80,7 +80,7 @@ footer li {
   flex-direction: row;
   justify-content: space-between;
   background-color: #00449c;
-  padding: 10px 25px;
+  padding: 20px 25px;
 }
 
 .textbox-text {
@@ -367,7 +367,7 @@ p {
 }
 
 /* tablet and small laptops */
-@media screen and (min-width: 601px) and (max-width: 955px) {
+@media screen and (min-width: 601px) and (max-width: 900px) {
   .navigation,
   #menu-check {
     display: none;
@@ -457,12 +457,64 @@ p {
 }
 
 /* laptop to larger desktops */
-@media screen and (min-width: 956px) and (max-width: 1300px) {
+@media screen and (min-width: 901px) and (max-width: 1300px) {
   #menu-check,
   .hidden-check {
     display: none;
   }
+
+
+  
+   /* FOOTER */
+   .footer-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 45px;
+  }
+
+  .media-center {
+    text-align: center;
+  }
+
+  .img-footer {
+    display: none;
+  }
+
+  .logo-big-footer {
+    display: block;
+  }
+
+  .input-email {
+    width: 280px;
+  }
+
+  .btn-news {
+    font-size: 1rem;
+    width: 125px;
+    margin-left: -125px;
+  }
+
+  .label-news {
+    font-size: 1.115rem;
+  }
+
+  .input-email::placeholder {
+    font-size: 0.875rem;
+  }
+
+  .some {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .some img {
+    height: 50px;;
+    width: auto;
+  }
+  
 }
+
 
 /* larger monitors */
 @media screen and (min-width: 1301px) {
@@ -470,4 +522,17 @@ p {
   .hidden-check {
     display: none;
   }
+
 }
+
+@media screen and (min-width: 1601px) {
+  #menu-check,
+  .hidden-check {
+    display: none;
+  }
+
+  main {
+    padding: 2% 8%;
+  }
+}
+
