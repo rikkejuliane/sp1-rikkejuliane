@@ -23,7 +23,6 @@ video {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  
 }
 
 .textbox {
@@ -385,12 +384,12 @@ main {
 }
 
 /* "FOR KIDS", "FOR TEACHER", "FOR RESEARCHER" */
-@media screen and (min-width: 445px) and (max-width: 600px){
+@media screen and (min-width: 445px) and (max-width: 600px) {
   .card1-btn,
-.card2-btn,
-.card3-btn {
-  width: 445px;
-}
+  .card2-btn,
+  .card3-btn {
+    width: 445px;
+  }
 }
 
 /* tablet and small laptops */
@@ -438,12 +437,12 @@ main {
     flex-direction: column-reverse;
   }
 
-  .p-index1, .p-index2  {
+  .p-index1,
+  .p-index2 {
     text-align: center;
     width: 500px;
     font-size: 1.5rem;
   }
-
 
   .h1-index1 {
     width: 600px;
@@ -485,7 +484,7 @@ main {
     margin: 0;
     padding: 0;
   }
-  
+
   .img-space2 {
     display: block;
     object-fit: cover;
@@ -493,7 +492,6 @@ main {
     height: auto;
     padding-bottom: 40px;
   }
-  
 }
 
 /* laptop to larger desktops */
@@ -541,12 +539,12 @@ main {
     flex-direction: column-reverse;
   }
 
-  .p-index1, .p-index2  {
+  .p-index1,
+  .p-index2 {
     text-align: center;
     width: 600px;
     font-size: 1.6rem;
   }
-
 
   .h1-index1 {
     width: 700px;
@@ -588,11 +586,10 @@ main {
     margin: 0;
     padding: 0;
   }
-  
+
   .img-space2 {
     display: none;
   }
-  
 }
 
 /* larger monitors */

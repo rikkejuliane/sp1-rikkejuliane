@@ -1,55 +1,54 @@
 main {
-    background-image: url("../assets/background-pptc.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    max-width: 100%;
-    height: auto;
-    padding-bottom: 120px;
-    padding-top: 50px;
-  }
+  background-image: url("../assets/background-pptc.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  max-width: 100%;
+  height: auto;
+  padding-bottom: 120px;
+  padding-top: 50px;
+}
 
 .pptc-wrapper {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 65%;
-    margin: 0 auto;
-    padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 65%;
+  margin: 0 auto;
+  padding-top: 20px;
 }
 
-.h2-pptc{
-    font-family: "Montserrat", sans-serif;
-    font-size: 1.35rem;
-    color: #0046A0; 
-    padding-top: 15px;
-    font-weight: 700;
+.h2-pptc {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.35rem;
+  color: #0046a0;
+  padding-top: 15px;
+  font-weight: 700;
 }
 
-.p-pptc, .p-pptc li {
-    font-family: "Montserrat", sans-serif;
-    font-size: 1.25rem;
-    font-weight: 400;
-    padding-bottom: 10px;
+.p-pptc,
+.p-pptc li {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.25rem;
+  font-weight: 400;
+  padding-bottom: 10px;
 }
 
 .p-pptc a {
-    text-decoration: none;
-    font-weight: 700;
-    color: #000;
+  text-decoration: none;
+  font-weight: 700;
+  color: #000;
 }
-
 
 /* MEDIA QUERIES */
 /* mobile to small tablet */
 @media screen and (min-width: 300px) and (max-width: 600px) {
-    .h2-pptc{
-        font-size: 1.1rem;
-       
-    }
-    
-    .p-pptc, .p-pptc li {
-        font-size: 1rem;
-       
-    }
+  .h2-pptc {
+    font-size: 1.1rem;
+  }
+
+  .p-pptc,
+  .p-pptc li {
+    font-size: 1rem;
+  }
 }

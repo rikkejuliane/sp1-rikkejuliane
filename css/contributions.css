@@ -1,83 +1,79 @@
 main {
-    background-image: url("../assets/backgroundcontribution.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    max-width: 100%;
-    height: auto;
-  }
+  background-image: url("../assets/backgroundcontribution.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  max-width: 100%;
+  height: auto;
+}
 
+.section-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 120px;
+  padding-bottom: 60px;
+  padding-top: 30px;
+  flex-wrap: wrap;
+}
 
-  .section-wrapper {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: 120px;
-    padding-bottom: 60px;
-    padding-top: 30px;
-    flex-wrap: wrap;
-  }
+.cont-reverse {
+  flex-direction: row-reverse;
+}
 
-  .cont-reverse{
-    flex-direction: row-reverse;
-  }
+.contribution-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 
-  .contribution-text {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
+.h1-contribution {
+  width: 561px;
+  text-align: center;
+  margin: 0;
+  padding: 10px;
+}
 
-  .h1-contribution {
-    width: 561px;
-    text-align: center;
-    margin: 0;
-    padding: 10px;
-  }
+.p-contribution {
+  text-align: left;
+  width: 580px;
+  margin: 0;
+  font-size: 1.563rem;
+  padding-bottom: 15px;
+}
 
-  .p-contribution {
-    text-align: left;
-    width: 580px;
-    margin: 0;
-    font-size: 1.563rem;
-    padding-bottom: 15px;
-  }
+.contact-btn-wrapper {
+  display: flex;
+  justify-content: center;
+  padding: 100px;
+}
 
+.contact-btn {
+  background-color: #00449c;
+  border: 1px solid #9edffe;
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  border-radius: 50px;
+  color: #9edffe;
+  padding: 5px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 2.5rem;
+  width: 364px;
+  cursor: pointer;
+}
 
-  .contact-btn-wrapper{
-    display: flex;
-    justify-content: center;
-    padding: 100px;
-  }
-
-  .contact-btn{
-    background-color: #00449c;
-    border: 1px solid #9edffe;
-    font-family: "Poppins", sans-serif;
-    font-weight: 800;
-    border-radius: 50px;
-    color: #9edffe;
-    padding: 5px 15px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 2.5rem;
-    width: 364px;
-    cursor: pointer;
-  }
-
-
-  /* MEDIA QUERIES */
+/* MEDIA QUERIES */
 /* mobile to small tablet */
 @media screen and (min-width: 300px) and (max-width: 600px) {
   .section-wrapper {
     padding: 20px;
     gap: 20px;
   }
-  
-  
-  
-  .p-contribution, .contribution-text {
+
+  .p-contribution,
+  .contribution-text {
     text-align: center;
     width: 300px;
     margin: 0;
@@ -91,11 +87,11 @@ main {
     padding: 10px;
   }
 
-  .contact-btn-wrapper{
+  .contact-btn-wrapper {
     padding: 10px;
   }
 
-  .contact-btn{
+  .contact-btn {
     font-size: 1.8rem;
     width: 300px;
   }

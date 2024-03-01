@@ -1,53 +1,50 @@
 main {
-    background-image: url("../assets/backgroundexhibitions.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    max-width: 100%;
-    height: auto;
-  }
+  background-image: url("../assets/backgroundexhibitions.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  max-width: 100%;
+  height: auto;
+}
 
-  .exhibition-wrapper{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding-top: 40px;
-  }
+.exhibition-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 40px;
+}
 
-  .ex-card-wrapper {
-    display: flex;
-    flex-direction: row;
-    gap: 90px;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
+.ex-card-wrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 90px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
 
+.ex-card {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 60px;
+  align-items: center;
+  box-sizing: border-box;
+}
 
-  .ex-card {
-    display: flex;
-    flex-direction: column;
-    padding-bottom: 60px;
-    align-items: center;
-    box-sizing: border-box;
-    
-  }
+.ex-card img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  padding-top: 10px;
+}
 
-  .ex-card img {
-    max-width: 100%;
-    height: auto;
-    display: block;
-    margin: 0 auto;
-    padding-top: 10px;
-  }
+.p-small-ex {
+  max-width: 560px;
+  font-size: 1.25rem;
+  padding: 15px 0;
+}
 
-  .p-small-ex {
-    max-width: 560px;
-    font-size: 1.25rem;
-    padding: 15px 0;
-  }
-
-  
 /* MEDIA QUERIES */
 /* mobile to small tablet */
 @media screen and (min-width: 300px) and (max-width: 600px) {
@@ -57,5 +54,3 @@ main {
     padding: 15px 0;
   }
 }
-  
-  
