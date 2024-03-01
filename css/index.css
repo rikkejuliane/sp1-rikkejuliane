@@ -6,6 +6,11 @@ video {
 }
 
 /* HEADER */
+
+video {
+  z-index: -1;
+}
+
 .section2-header {
   display: flex;
   flex-direction: column;
@@ -29,6 +34,7 @@ video {
   background-color: #00449c;
   width: 1138px;
   padding: 30px;
+  z-index: 1;
 }
 
 .h1-textbox {
