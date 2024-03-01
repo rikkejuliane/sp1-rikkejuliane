@@ -18,6 +18,7 @@ video {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  z-index: 1;
 }
 
 .textbox {
@@ -32,7 +33,7 @@ video {
 
 .h1-textbox {
   font-family: "Bungee", sans-serif;
-  font-size: 6.25rem;
+  font-size: clamp(4rem, 5vw + 1rem, 6.25rem);
   color: #9edffe;
   margin: 0;
 }
@@ -402,9 +403,6 @@ main {
     font-size: 3rem;
     width: 520px;
     text-align: center;
-    -webkit-font-smoothing: antialiased;
-    font-synthesis: none;
-    text-rendering: optimizeLegibility;
   }
 
   .p-textbox {
