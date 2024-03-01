@@ -81,6 +81,7 @@ footer li {
   justify-content: space-between;
   background-color: #00449c;
   padding: 20px 25px;
+  z-index: 2;
 }
 
 .textbox-text {
