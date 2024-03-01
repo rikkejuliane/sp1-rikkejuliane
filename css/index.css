@@ -402,6 +402,9 @@ main {
     font-size: 3rem;
     width: 520px;
     text-align: center;
+    -webkit-font-smoothing: antialiased;
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
   }
 
   .p-textbox {
