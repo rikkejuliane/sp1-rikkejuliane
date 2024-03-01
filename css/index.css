@@ -266,7 +266,7 @@ main {
 
 /* MEDIA QUERIES */
 @media (prefers-reduced-motion: no-preference) {
-  :has(:target) {
+  html {
     scroll-behavior: smooth;
   }
 }
