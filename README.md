@@ -6,7 +6,7 @@
 2. [Client](#client-)
 3. [Key Features](#key-features-)
 4. [Installation](#installation-)
-5. [Tech Used 💻](#tech-used-)
+5. [Tech Used](#tech-used-)
 6. [Contact me](#contact-me-)
 
 
