@@ -14,7 +14,7 @@
 The *Community Science Museum* website was designed and developed to meet the needs of its target audience—children aged 7-15 and families with young children. The website features a modern, accessible, and responsive design that showcases key information about the museum, its exhibitions, and how visitors can get involved. The core goal of the site is to excite and entice people to visit the museum through visually engaging and informative content.
 
 
-## Client 🔬  
+### Client 🔬  
 * **Name**: Community Science Museum  
 * **Sector**: Education / Museum  
 * **Target Audience**: Primary and middle school children (ages 7-15) and families  
