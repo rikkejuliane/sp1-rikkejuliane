@@ -47,6 +47,7 @@ Clone the repository and open the `index.html` file in your browser to view the 
 * HTML 
 * CSS
 
+
 ### Contact me 🙋🏽‍♀️  
 Don’t hesitate to reach out to me or connect with me on social media if you have any questions, collaboration ideas, or an exciting new project in mind. I’m always open to new opportunities!   
 🩷 [Instagram](https://www.instagram.com/rikkejuliane/)  
