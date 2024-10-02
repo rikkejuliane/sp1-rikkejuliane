@@ -2,12 +2,12 @@
 <img src="https://github.com/user-attachments/assets/0b31ee5d-4b7c-47c1-ac91-c357a425ecb9" alt="Logo for Community Science Museum" width="600px">
 
 ### Table of Contents 📚    
-1. [Project Overview](#project-overview)
-2. [Client](#client)
-3. [Key Features](#key-features)
-4. [Installation](#installation)
+1. [Project Overview](#project-overview-)
+2. [Client](#client-)
+3. [Key Features](#key-features-)
+4. [Installation](#installation-)
 5. [Tech Used 💻](#tech-used-)
-6. [Contact me](#contact-me)
+6. [Contact me](#contact-me-)
 
 
 ### Project Overview 🌐   
