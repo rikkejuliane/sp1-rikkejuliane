@@ -39,7 +39,9 @@ The *Community Science Museum* website was designed and developed to meet the ne
 
 
 ### Installation ⚙️  
-Clone the repository and open the `index.html` file in your browser to view the website locally.
+Clone the repository and open `index.html` to view the site locally.  
+Alternatively, click the link below to access the live demo:  
+🌐 [Live Demo](https://rikkejuliane.github.io/sp1-rikkejuliane/)
 
 
 ### Tech Used 💻  
