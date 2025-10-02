@@ -1,4 +1,4 @@
-# Semester Project 1 - Rikkejuliane   
+# Semester Project 1 - Community Science Museum 
 <img src="https://github.com/user-attachments/assets/0b31ee5d-4b7c-47c1-ac91-c357a425ecb9" alt="Logo for Community Science Museum" width="600px">
 
 ### Table of Contents 📚    
